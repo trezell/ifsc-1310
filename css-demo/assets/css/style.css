@@ -12,10 +12,74 @@ html {
   /* ---------------Global Styles----------------- */
   
   body{
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin:35px;
   }
   
   header.primary{
-    background-color:coral;
+    background-color:#A66F6A;
+    text-align:center;
+    text-shadow: 1px 1px #000000;
+    color:#3F2E24;
+    /* Long Form */
+    padding-top:40px;
+    padding-right:40px;
+    padding-bottom:40px;
+    padding-left:40px;
+
+    /* T, R, B, L*/
+    padding: 40px 40px 40px 40px;
+    /* top/bottom | Left/Right */
+    padding: 20px 40px;
+
+  }
+
+  header.primary h1{
+    font-size:2.8rem;
+    margin:20px 0;
+  }
+
+  header.primary h1 a{
+    color:#ffffff;
+    text-decoration:none;
   }
   
+  header.primary h2{
+    font-size:1.8rem;
+    /* Top | Left/RIght | Bottom */
+    margin: 20px auto 40px;
+
+  }
+
+  header.primary nav{
+    background:red;
+    width:80vw;
+    max-width:900px;
+    margin:20 px auto;
+  }
+
+  header.primary nav ul{
+    padding:0;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+  }
+
+  header.primary nav ul li{
+    list-style-type:none;
+  }
+
+  header.primary ul li a{
+    color:#ffffff;
+    text-decoration:none;
+    background-color:#D9A0A0;
+    background-color:#D9A0A0(0,0,0,.95);
+    padding:8px 16px;
+    border-radius:20px;
+    transition:.5s;
+    border:1px solid #8C2A3C;
+  }
+
+  header.primary ul li a:hover, header.primary ul li a:active{
+    background-color:#D9A0A0(0,0,0,.8);
+  }

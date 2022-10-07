@@ -1,0 +1,41 @@
+/* ---------------Box Sizing----------------- */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /* ---------------Global Styles----------------- */
+
+  body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    }
+    
+    header.primary{
+      background-color:#D9A0A0;
+      margin:0px;
+      text-align:center;
+      text-shadow:1px 1px 3px #3D2E24;
+      color:#ffffff;
+      padding: 20px;
+    }
+
+    header.primary h1{
+      font-size:2.6rem;
+      margin:20px 0;
+    }
+
+    header.primary h1 a{
+      color:#A66F6A;
+      text-decoration: none;
+    }
+
+    header.primary h2{
+      font-size:1.8rem;
+      margin:
+    }
