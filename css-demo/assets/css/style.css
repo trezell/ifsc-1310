@@ -122,7 +122,7 @@ max-width:100%;
 
 time.post-date, figcaption, footer.post-meta{
 text-transform:capitalize;
-color: #c0c0c0;
+color: #403027;
 }
 
 .post figure{
@@ -138,7 +138,7 @@ border-radius: 20px 8px 20px 8px;
 
 /*****This is going for Article Title******/
 .post a{
-color:#3b638b;
+color:#8C2A3C;
 }
 
 .post a:hover, .post a:active: {
