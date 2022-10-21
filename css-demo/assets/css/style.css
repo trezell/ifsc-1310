@@ -14,7 +14,27 @@ html {
 max-width:960px;
 width:80vw;
 margin: auto;
+
 }
+
+.img-left{
+float:left;
+margin:10px 20px 10px 0;
+border: 5px double #c0c0c0;
+padding:5px;
+border-radius:14px;
+
+}
+/*------This can change the UALR image in between the text and centered, would just need to change it in the HTML to say class="img-center"-------*/
+.img-center{
+display:block;
+margin:20px auto;
+}
+
+
+
+
+
 /* ---------------Global Styles----------------- */
 
 /* ---------------Global Styles----------------- */
@@ -22,17 +42,14 @@ margin: auto;
 body{
   font-family: 'Montserrat', sans-serif;
   margin:0;
+  line-height:20px;
+  /*-----this sets the height of the word lines------*/
   }
   
   header.primary{
     background-color:#D9A0A0;
     background-color: #d9a0a0;
 background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%23a66f6a' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
-    
-    
-    
-    
-    
     
     margin:0px;
     text-align:center;
@@ -122,7 +139,7 @@ max-width:100%;
 
 time.post-date, figcaption, footer.post-meta{
 text-transform:capitalize;
-color: #403027;
+color: #c0c0c0;
 }
 
 .post figure{
@@ -138,7 +155,7 @@ border-radius: 20px 8px 20px 8px;
 
 /*****This is going for Article Title******/
 .post a{
-color:#8C2A3C;
+color:#3b638b;
 }
 
 .post a:hover, .post a:active: {
@@ -173,7 +190,7 @@ display:none;
 }
 
 aside article.widget h2{
-color:#D9A0A0;
+color:#c0c0c0;
 }
 
 #colophon{
@@ -205,3 +222,134 @@ header.primary nav li{
 }
 }
 
+#demo h2{
+padding: 10px;
+margin:20px;
+background-color:rgba(166, 111, 106, 1);
+padding:6px 12px;
+border-radius: 20px 8px 20px 8px;
+text-align:center;
+color:#F89B54;
+}
+
+#demo h3{
+color:#403027;
+font-weight:bold;
+border:2px dotted #a66f6a;
+margin: 20px 160px 40px 160px;
+text-align: center;
+}
+#demo h4{
+color:#403027;
+text-align:center;
+font-size:1.1rem;
+}
+#demo a{
+color:#3b638b;
+}
+#demo caption{
+color:#5f483a;
+font-size:1.25rem;
+font-weight:bold;
+margin-bottom:3px;
+
+}
+table{
+border:2px solid #A66F6A;
+border-collapse:collapse;
+width:100%;
+}
+
+tr:nth-child(even){
+background-color:#D9A0A0;
+}
+tr:hover{
+ background-color:rgba(64, 48, 39, 0.86);
+
+}
+th{
+background-color:#A66F6A;
+color:#E2D8D2;
+padding:10px;
+}
+
+td{
+border:2px solid #c0c0c0;
+padding:5px;
+width: 33%;
+text-align:right;
+
+}
+
+td:first-of-type{
+text-align:left;
+}
+
+#demo ol{
+list-style-type:upper-alpha;
+
+}
+ol li:nth-child(2n+1){
+background-color:#D9A0A0;
+}
+#demo ul{
+list-style:square;
+color:#403027;
+}
+
+#demo ul ul{
+list-style:lower-roman;
+color:#8C2A3C;
+}
+
+#demo dl{
+
+}
+
+#demo dt{
+font-weight:bold;
+text-shadow:1.5px 1px 2.5px #403027;
+font-size:1.5rem;
+}
+#demo dd{
+margin:0;
+
+}
+
+dd:nth-of-type(n+3){
+color:#8C2A3C;
+}
+
+dd:nth-of-type(1){
+color:#D9A0A0;
+}
+
+dd:nth-of-type(2){
+color:#D9A0A0;
+}
+
+/***********adjacent sibling combinator**************/
+dd + dt{
+color:#D9A0A0;
+font-size:1.6rem;
+margin-top:45px;
+}
+
+dt{
+color:#8C2A3C;
+}
+#demo blockquote{
+background-color:#D9A0A0;
+padding: 35px;
+border:5px double #8C2A3C;
+border-radius: 6px;
+}
+
+#demo blockquote cite{
+color:#A66F6A;
+display:block;
+text-align:right;
+font-weight: bold;
+font-size:.75rem;
+margin-top:10px;
+}
