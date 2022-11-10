@@ -1,0 +1,106 @@
+
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ----- Utility Styles ---- */
+
+.container {
+  width: 80vw;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+.img-right {
+  float: right;
+  margin: 10px 0 10px 20px;
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+
+.img-left {
+  float: left;
+  margin: 10px 20px 10px 0;
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+
+.img-center {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+
+/* ---- Responsive Images ----*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header.primary{
+    background-color:aqua;
+    background-image: url("/fwf2/assets/img/mainpage.jpg");
+    font-size:3.6rem;
+    color:#E3A2C6;
+    text-align:center;
+    text-shadow: 6px 6px 12px #000000;
+    margin:0 0 0 25px;
+    padding:80px;
+    
+}
+
+header.primary nav{
+    width:80vw;
+    margin:auto;
+    max-width:900px;
+}
+
+header.primary nav ul{
+    position: relative;
+    padding:0;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+  }
+  
+  
+header.primary nav ul li{
+    list-style-type:none;
+    margin:160px 0 0 0;
+  }
+
+header.primary ul li a{
+    color:#A69D24;
+    font-size:1.8rem;
+    text-decoration:none;
+    background-color: #403027;
+    background-color:rgba(64, 48, 39, .35);
+    padding:30px 12px;
+    border-radius: 20px 8px 20px 8px;
+    transition:.6;
+    margin:20px 20px;
+  }
+  
+  header.primary ul li a:hover, header.primary ul li a:active{
+    background-color:rgba(64, 48, 39, .75);
+  }
+
+  header.primary::before{
+    content: "";
+    background-image: url("/fwf2/assets/img/mainpage.jpg")
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom:0;
+    left: 0;
+    opacity:0.4;
+  }
