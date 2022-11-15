@@ -53,21 +53,30 @@ html {
 img {
     max-width: 100%;
     height: auto;
+    margin:auto;
   }
+figure {
+    margin:auto;
+}
 
+figcaption{
+    font-size:1.1rem;
+    color:#ffffff;
+    text-align: center;
+}
 /* --------------- Global Styles  ---------------*/
 
 header.primary{
     background-color:#E4CEC3;
-    background: radial-gradient(80% 40%, #E4CEC3, #B0A82C);
-    color:#BF048D;
+    background: radial-gradient(80% 40%, #C24A92, #874E50);
+    color:#131721;
     text-align:center;
     text-shadow: 2px 2px 6px #ffffff;    
 }
 
 header.primary h1{
   font-size:3.6rem;
-  padding-top:12px;
+  padding-top:2px;
 }
 
 header.primary h2{
@@ -93,11 +102,11 @@ header.primary nav ul li{
 }
 
 header.primary ul li a{
-    color:#BF048D;
+    color:#131721;
     font-size:1.8rem;
     text-decoration:none;
     background-color: #403027;
-    background-color:rgba(92, 87, 27, 0.35);
+    background-color:rgba(187, 182, 132, 0.35);
     padding:12px 12px;
     border-radius: 20px 8px 20px 8px;
     transition:.6;
@@ -119,10 +128,17 @@ figure{
     width:110%;
 }
    
+section#dedication{
+    font-size: 3.3rem;
+    border-style: ridge;
+    padding: 20px 60px;
+    text-align: center;
+}
 /* --------------- Articles ---------------*/
 
 section#articles {
-    background: #413740;
+    
+    background: linear-gradient(to top, #874E50, #413740);
 }
   
 section#articles .container {
@@ -135,16 +151,25 @@ section#articles .container {
 }
 
 section#articles h2,
-  #content h2 {
+  #content h3 {
     flex: 0 0 100%;
     color: #8C035C;
     text-align: center;
     font-family: "Goldman", cursive;
     font-size: 2em;
 }
+
+section#articles h3{
+    color:aqua;
+    text-align:center;
+    font-size: 1.8rem;
+    text-decoration: none;
+
+}
   
 section#articles h2 {
-    color: #B0A82C;
+    color: #874E50;
+    font-size: 3.0rem;
     text-shadow: 2px 2px rgb(223, 164, 164);
 }
 
@@ -157,3 +182,4 @@ section#articles h2 {
   border-radius: 10px;
   background: rgb(243, 185, 185);
 }
+
