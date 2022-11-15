@@ -88,40 +88,99 @@ header {
         text-align:center;
     }
 
-    nav {
+    nav ul{
         max-width: 800px;
         margin: auto;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content:space-evenly;
     }
 
         nav li {
-            flex-grow: 1;
+            text-decoration: none;
             text-align: center;
             padding: 1em;
             position: relative;
-            text-decoration: none;
-            display: flex;
-            flex-direction:row;
-            justify-content:space-evenly;
-
+            color: #333;
+            list-style-type:none;
         
         }
-
-       
-        nav li a::after {
-            color:red;
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right:0;
-            height: 2px;
-            transform: scaleX(0);
-            background: #333;
-            transition: 0.7s transform cubic-bezier(0.06, 0.9, 0.28, 1);
+        
+        header.primary ul li a{
+            color:#333;
+            font-size:1.2rem;
+            text-decoration:none;
+            transition:.6;
+            margin:0;
+            border-radius: 20px 20px 20px 20px;
+            padding:2px;
         }
 
-        nav li hover::after{
-            transform: scaleX(1)
+        header.primary ul li a:hover, header.primary ul li a:active{
+            background-color:rgba(240, 116, 202, 0.75);
+        }
+
+        section#dedication{
+            font-size: 2.8rem;
+            border-style: ridge;
+            padding-bottom: 60px;
+            text-align: center;
+            margin:auto;
+            background-color: rgba(243, 217, 237, 0.308);
+            font-family: 'Montserrat', sans-serif;
+        }
+        /* --------------- Articles ---------------*/
+        
+        section#articles {
+            
+            background: linear-gradient(to top, #874E50, #413740);
+        }
+          
+        section#articles .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            border-bottom: 1px solid #c0c0c0;
+            padding: 0 0 4em 0;
+        }
+        
+        section#articles h2,
+          #content h3 {
+            flex: 0 0 100%;
+            color: #8C035C;
+            text-align: center;
+            font: normal 4em 'Playfair Display SC', serif;
+            font-size: 2em;
+        }
+        
+        section#articles h3{
+            color:aqua;
+            text-align:center;
+            font-size: 1.8rem;
+            text-decoration: none;
+        
+        }
+          
+        section#articles h2 {
+            color: #874E50;
+            font-size: 3.0rem;
+            text-shadow: 2px 2px rgb(223, 164, 164);
+        }
+        
+        #articles article.post {
+          width: 30%;
+          box-shadow: 0 4px 8px rgba(250, 250, 250, 0.9);
+          padding: 10px;
+          transition: 0.6s;
+          font-size: 0.8rem;
+          border-radius: 10px;
+          background: rgb(243, 185, 185);
+        }
+
+        footer#colophon{
+            text-align: center;
+            background-color: #fafafa;
+            margin:auto;
+            padding: 40px;
         }
