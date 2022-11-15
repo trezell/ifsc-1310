@@ -155,7 +155,7 @@ header {
         }
         
         section#articles h3{
-            color:aqua;
+            color:#333;
             text-align:center;
             font-size: 1.8rem;
             text-decoration: none;
@@ -184,3 +184,40 @@ header {
             margin:auto;
             padding: 40px;
         }
+
+        /****************WHO****************/
+section#who{
+    font-family: 'Montserrat', sans-serif;
+    margin-top:10px;
+    margin-bottom:10px;
+    
+}
+
+section#who h2{
+    text-align:center;
+    font: normal 2em 'Playfair Display SC', serif;
+    
+}
+.wrapingimage  
+{  
+float: left;   
+margin: 6px 12px 13px 14px;    
+}   
+
+section#began h2{
+    text-align:center;
+    font: normal 2em 'Playfair Display SC', serif;
+    
+}
+
+section#went h2{
+    text-align:center;
+    font: normal 2em 'Playfair Display SC', serif;
+    
+}
+
+section#am h2{
+    text-align:center;
+    font: normal 2em 'Playfair Display SC', serif;
+    
+}
