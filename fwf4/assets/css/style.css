@@ -112,7 +112,6 @@ header {
             text-decoration:none;
             transition:.6;
             margin:0;
-            border-radius: 20px 20px 20px 20px;
             padding:2px;
         }
 
@@ -120,14 +119,14 @@ header {
             background-color:rgba(240, 116, 202, 0.75);
         }
 
-        section#dedication{
-            font-size: 2.8rem;
-            border-style: ridge;
-            padding-bottom: 60px;
-            text-align: center;
-            margin:auto;
-            background-color: rgba(243, 217, 237, 0.308);
-            font-family: 'Montserrat', sans-serif;
+    section#dedication{
+        font-size: 2.8rem;
+        border-style: ridge;
+        padding: 60px;
+        text-align: center;
+        margin:auto;
+        background-color: rgba(243, 217, 237, 0.308);
+        font-family: 'Montserrat', sans-serif;
         }
         /* --------------- Articles ---------------*/
         
@@ -220,4 +219,55 @@ section#am h2{
     text-align:center;
     font: normal 2em 'Playfair Display SC', serif;
     
+}
+
+section#sport h2{
+    text-align: center;
+    font: normal 2.8em 'Playfair Display SC', serif;
+    padding-bottom:20px;
+}
+
+section#sport p{
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+}
+
+section#sport ol{
+    text-align: center;
+    padding:12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.5rem;
+    list-style-type: none; 
+}
+
+
+section#triathlon h3{
+    text-align:center;
+    font: normal 2em 'Playfair Display SC', serif;
+    
+}
+
+section#triathlon li{
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.8rem;
+    list-style-type: none; 
+    font-weight: bold; 
+    margin:20px;
+    text-align: center;
+}
+
+section#triathlon ul dt{
+    
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin:0 300px 0 300px;
+    background-color: antiquewhite;
+}
+section#triathlon ul dd{
+    
+    font-family: 'Montserrat', sans-serif;
+    margin:0 300px 0 300px;
+    text-align: center;
 }
