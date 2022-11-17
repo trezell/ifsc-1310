@@ -278,3 +278,49 @@ script{
     margin:20px;
 }
 
+section#return{
+    text-align:center;
+    font: normal 2em 'Playfair Display SC', serif; 
+}
+
+section#com h2{
+    text-align: center;
+    font: normal 2.8em 'Playfair Display SC', serif;
+    padding:20px;
+}
+
+section#com p{
+    margin:0 50px 0 50px;
+    padding-bottom:20px;
+    font-family: 'Montserrat', sans-serif;
+    font: normal 1.0em 'Montserrat', sans-serif;
+}
+
+section#faq{
+    margin:10px 200px 10px 100px;
+    
+}
+
+section#faq h2{
+    text-align: center;
+    font: normal 2.8em 'Playfair Display SC', serif;
+    padding:8px 20px 10px 20px;
+    
+}
+
+section#faq p{
+    background-color: #fafafa;
+    font: normal 1.0em 'Montserrat', sans-serif;
+    padding: 20px 100px 20px 100px;
+    
+}
+
+section#faq ul{
+    margin:0 80px 0 80px;
+    
+}
+
+section#faq ul li{
+    font: bold 1.0em 'Montserrat', sans-serif;
+   
+}
