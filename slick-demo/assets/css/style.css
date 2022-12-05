@@ -8,7 +8,7 @@ img{
 
 .container{
     margin:40px auto;
-    width:70vw;
+    width:40vw;
     /* Set Max Content Width */
     max-width:700px;
 }
@@ -33,4 +33,8 @@ img{
 .slick-autoplay-toggle-button:focus 
 {
     color:rgb(112, 111, 48);
+}
+
+.slick-next{
+    padding-right:114px;
 }
